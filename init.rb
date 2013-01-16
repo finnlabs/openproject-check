@@ -6,5 +6,5 @@ Redmine::Plugin.register :redmine_check do
   author 'Holger Just'
   author_url 'http://meine-er.de'
   description 'Add a simple and very cheap action to check whether the application stack is still alive.'
-  version '0.1'
+  version '1.0.0'
 end
