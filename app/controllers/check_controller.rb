@@ -9,11 +9,11 @@ class CheckController < ApplicationController
     ActiveRecord::Base.connection.execute("SELECT 1;")
     render :text => "ALIVE", :status => 200
   rescue Exception
-    render :text => "ERROR",  :status => 500
+    render :text => "ERROR", :status => 500
   end
 
   # Do not log the checks into the default log.
   def logger
     @logger ||= Logger.new(StringIO.new)
-  end    
+  end
 end
