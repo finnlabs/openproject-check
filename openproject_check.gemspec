@@ -1,11 +1,11 @@
 $:.push File.expand_path("../lib", __FILE__)
 
 # Maintain your gem's version:
-require "check/version"
+require "openproject_check/version"
 
 # Describe your gem and declare its dependencies:
 Gem::Specification.new do |s|
-  s.name        = "check"
+  s.name        = "openproject_check"
   s.version     = Check::VERSION
   s.authors     = ["Holger Just, Finn GmbH"]
   s.email       = ["info@finn.de"]
