@@ -15,5 +15,5 @@ class CheckController < ApplicationController
   # Do not log the checks into the default log.
   def logger
     @logger ||= Logger.new(StringIO.new)
-  end    
+  end
 end
