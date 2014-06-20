@@ -1,5 +1,5 @@
 # Changelog
 
-## 2.0.0.pre1
+## 3.0.8
 
 * `` Migration Rails3 Check
