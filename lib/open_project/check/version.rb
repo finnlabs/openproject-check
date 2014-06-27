@@ -1,5 +1,5 @@
 module OpenProject
   module Check
-    VERSION = "2.0.0.pre1"
+    VERSION = "3.0.8"
   end
 end
