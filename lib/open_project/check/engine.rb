@@ -15,7 +15,7 @@ module OpenProject::Check
         version spec.version
         url 'https://www.openproject.org/projects/plugin-check'
 
-        requires_openproject ">= 3.0.0pre9"
+        requires_openproject ">= 4.0.0"
       end
     end
 
