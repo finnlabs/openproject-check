@@ -13,7 +13,7 @@ Gem::Specification.new do |s|
   s.summary = "OpenProject plugin adding a simple action to check whether the application stack is still alive."
   s.description = "OpenProject plugin adding a simple action to check whether the application stack is still alive."
 
-  s.files = Dir["{app,config,lib}/**/*"] + [ "README.rdoc", "CHANGELOG.md" ]
+  s.files = Dir["{app,config,lib}/**/*"] + [ "README.rdoc" ]
 
   s.add_dependency "rails", "~> 3.2.9"
 end
