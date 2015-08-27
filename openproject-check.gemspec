@@ -15,5 +15,5 @@ Gem::Specification.new do |s|
 
   s.files = Dir["{app,config,lib}/**/*"] + [ "README.rdoc" ]
 
-  s.add_dependency 'rails', '~> 4.1.11'
+  s.add_dependency 'rails', '~> 4.2.4'
 end
