@@ -7,9 +7,9 @@ require "open_project/check/version"
 Gem::Specification.new do |s|
   s.name = "openproject-check"
   s.version = OpenProject::Check::VERSION
-  s.authors = ["Finn GmbH"]
-  s.email = ["info@finn.de"]
-  s.homepage = "http://www.finn.de/"
+  s.authors = ["OpenProject GmbH"]
+  s.email = ["info@openproject.com"]
+  s.homepage = "http://www.openproject.com/"
   s.summary = "OpenProject plugin adding a simple action to check whether the application stack is still alive."
   s.description = "OpenProject plugin adding a simple action to check whether the application stack is still alive."
 
