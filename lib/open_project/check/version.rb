@@ -1,5 +1,5 @@
 module OpenProject
   module Check
-    VERSION = "6.1.4"
+    VERSION = "6.1.5"
   end
 end
